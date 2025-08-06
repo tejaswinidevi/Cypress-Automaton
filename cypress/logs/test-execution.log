@@ -1,0 +1,265 @@
+[2025-08-06 19:47:56.076] [INFO] [default] Starting test execution
+[2025-08-06 19:47:56.082] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:47:56.091] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:47:57.820] [INFO] [default] Starting test execution
+[2025-08-06 19:47:57.824] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:47:57.836] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:00.443] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:00.465] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:48:01.217] [INFO] [default] Credentials entered
+[2025-08-06 19:48:03.271] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:03.283] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:48:03.291] [INFO] [default] Title verification successful
+[2025-08-06 19:48:03.304] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:48:03.333] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:48:03.340] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:03.808] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:03.816] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:48:05.104] [INFO] [default] Credentials entered
+[2025-08-06 19:48:05.933] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:05.957] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:48:06.307] [INFO] [default] Alert message verification successful
+[2025-08-06 19:48:06.316] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #1) with status: undefined
+[2025-08-06 19:48:06.333] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #2)
+[2025-08-06 19:48:06.341] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:06.740] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:06.749] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:48:07.774] [INFO] [default] Credentials entered
+[2025-08-06 19:48:08.956] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:08.970] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:48:09.358] [INFO] [default] Alert message verification successful
+[2025-08-06 19:48:09.374] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #2) with status: undefined
+[2025-08-06 19:48:09.400] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #3)
+[2025-08-06 19:48:09.411] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:09.855] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:09.864] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:48:11.147] [INFO] [default] Credentials entered
+[2025-08-06 19:48:11.947] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:11.957] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:48:12.340] [INFO] [default] Alert message verification successful
+[2025-08-06 19:48:12.353] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #3) with status: undefined
+[2025-08-06 19:48:12.383] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #1)
+[2025-08-06 19:48:12.393] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:12.816] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:12.825] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:48:13.958] [INFO] [default] Credentials entered
+[2025-08-06 19:48:14.044] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:14.055] [INFO] [default] Verifying required field message: Required for field: username
+[2025-08-06 19:48:14.063] [INFO] [default] Required field message verification successful
+[2025-08-06 19:48:14.072] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #1) with status: undefined
+[2025-08-06 19:48:14.090] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #2)
+[2025-08-06 19:48:14.098] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:14.520] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:14.530] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:48:15.386] [INFO] [default] Credentials entered
+[2025-08-06 19:48:15.469] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:15.479] [INFO] [default] Verifying required field message: Required for field: password
+[2025-08-06 19:48:15.486] [INFO] [default] Required field message verification successful
+[2025-08-06 19:48:15.493] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #2) with status: undefined
+[2025-08-06 19:48:15.511] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #3)
+[2025-08-06 19:48:15.519] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:48:15.910] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:48:15.919] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:48:15.922] [INFO] [default] Credentials entered
+[2025-08-06 19:48:16.628] [INFO] [default] Submitted login credentials
+[2025-08-06 19:48:16.636] [INFO] [default] Verifying required field message: Required for field: both
+[2025-08-06 19:48:16.645] [INFO] [default] Required field message verification successful
+[2025-08-06 19:48:16.652] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #3) with status: undefined
+[2025-08-06 19:48:16.658] [INFO] [default] Test execution completed
+[2025-08-06 19:49:23.020] [INFO] [default] Starting test execution
+[2025-08-06 19:49:23.030] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:49:23.038] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:23.966] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:23.981] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:25.480] [INFO] [default] Credentials entered
+[2025-08-06 19:49:26.662] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:26.681] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:49:26.692] [INFO] [default] Title verification successful
+[2025-08-06 19:49:26.708] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:49:26.744] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:49:26.753] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:27.649] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:27.657] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:49:29.170] [INFO] [default] Credentials entered
+[2025-08-06 19:49:29.937] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:29.953] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:49:30.316] [INFO] [default] Alert message verification successful
+[2025-08-06 19:49:30.330] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #1) with status: undefined
+[2025-08-06 19:49:30.354] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #2)
+[2025-08-06 19:49:30.362] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:30.753] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:30.787] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:31.774] [INFO] [default] Credentials entered
+[2025-08-06 19:49:32.987] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:33.002] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:49:33.422] [INFO] [default] Alert message verification successful
+[2025-08-06 19:49:33.436] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #2) with status: undefined
+[2025-08-06 19:49:33.456] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #3)
+[2025-08-06 19:49:33.464] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:33.888] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:33.896] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:49:35.243] [INFO] [default] Credentials entered
+[2025-08-06 19:49:36.028] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:36.037] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:49:36.401] [INFO] [default] Alert message verification successful
+[2025-08-06 19:49:36.407] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #3) with status: undefined
+[2025-08-06 19:49:36.420] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #1)
+[2025-08-06 19:49:36.427] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:36.847] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:36.855] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:49:37.687] [INFO] [default] Credentials entered
+[2025-08-06 19:49:37.772] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:37.788] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #1) with status: undefined
+[2025-08-06 19:49:37.817] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #2)
+[2025-08-06 19:49:37.824] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:38.198] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:38.205] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:39.033] [INFO] [default] Credentials entered
+[2025-08-06 19:49:39.110] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:39.120] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #2) with status: undefined
+[2025-08-06 19:49:39.141] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #3)
+[2025-08-06 19:49:39.148] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:39.534] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:39.542] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:49:39.545] [INFO] [default] Credentials entered
+[2025-08-06 19:49:39.845] [INFO] [default] Starting test execution
+[2025-08-06 19:49:39.851] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:49:39.858] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:40.779] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:40.788] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:42.252] [INFO] [default] Credentials entered
+[2025-08-06 19:49:43.363] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:43.375] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:49:43.381] [INFO] [default] Title verification successful
+[2025-08-06 19:49:43.392] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:49:43.415] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:49:43.424] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:44.323] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:44.330] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:49:45.869] [INFO] [default] Credentials entered
+[2025-08-06 19:49:46.635] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:46.650] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:49:46.992] [INFO] [default] Alert message verification successful
+[2025-08-06 19:49:47.003] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #1) with status: undefined
+[2025-08-06 19:49:47.024] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #2)
+[2025-08-06 19:49:47.031] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:47.165] [INFO] [default] Starting test execution
+[2025-08-06 19:49:47.169] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:49:47.176] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:48.118] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:48.126] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:49.674] [INFO] [default] Credentials entered
+[2025-08-06 19:49:50.785] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:50.799] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:49:50.804] [INFO] [default] Title verification successful
+[2025-08-06 19:49:50.820] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:49:50.853] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:49:50.864] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:51.784] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:51.792] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:49:53.314] [INFO] [default] Starting test execution
+[2025-08-06 19:49:53.320] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:49:53.328] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:53.774] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:53.785] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:54.793] [INFO] [default] Credentials entered
+[2025-08-06 19:49:55.913] [INFO] [default] Submitted login credentials
+[2025-08-06 19:49:55.924] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:49:55.929] [INFO] [default] Title verification successful
+[2025-08-06 19:49:55.942] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:49:55.959] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:49:55.966] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:56.852] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:56.862] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:49:58.381] [INFO] [default] Starting test execution
+[2025-08-06 19:49:58.392] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:49:58.406] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:49:58.828] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:49:58.836] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:49:59.806] [INFO] [default] Credentials entered
+[2025-08-06 19:50:00.904] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:00.916] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:50:00.922] [INFO] [default] Title verification successful
+[2025-08-06 19:50:00.930] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:50:00.949] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:50:00.956] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:01.905] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:01.913] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:50:03.471] [INFO] [default] Credentials entered
+[2025-08-06 19:50:04.299] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:04.315] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:50:04.672] [INFO] [default] Alert message verification successful
+[2025-08-06 19:50:04.687] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #1) with status: undefined
+[2025-08-06 19:50:04.707] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #2)
+[2025-08-06 19:50:04.716] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:05.109] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:05.119] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:50:06.157] [INFO] [default] Credentials entered
+[2025-08-06 19:50:07.247] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:07.262] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:50:07.607] [INFO] [default] Alert message verification successful
+[2025-08-06 19:50:07.745] [INFO] [default] Starting test execution
+[2025-08-06 19:50:07.749] [INFO] [default] Starting test: Login to OrangeHRM successful with valid credentials
+[2025-08-06 19:50:07.756] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:08.177] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:08.185] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:50:09.694] [INFO] [default] Credentials entered
+[2025-08-06 19:50:10.979] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:10.989] [INFO] [default] Verifying page title matches: OrangeHRM
+[2025-08-06 19:50:10.993] [INFO] [default] Title verification successful
+[2025-08-06 19:50:11.005] [INFO] [default] Completed test: Login to OrangeHRM successful with valid credentials with status: undefined
+[2025-08-06 19:50:11.027] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #1)
+[2025-08-06 19:50:11.039] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:11.945] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:11.955] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:50:13.458] [INFO] [default] Credentials entered
+[2025-08-06 19:50:14.227] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:14.247] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:50:14.613] [INFO] [default] Alert message verification successful
+[2025-08-06 19:50:14.623] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #1) with status: undefined
+[2025-08-06 19:50:14.647] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #2)
+[2025-08-06 19:50:14.655] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:15.048] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:15.059] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:50:16.071] [INFO] [default] Credentials entered
+[2025-08-06 19:50:17.161] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:17.172] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:50:17.517] [INFO] [default] Alert message verification successful
+[2025-08-06 19:50:17.528] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #2) with status: undefined
+[2025-08-06 19:50:17.543] [INFO] [default] Starting test: Login to OrangeHRM successful with invalid credentials (example #3)
+[2025-08-06 19:50:17.549] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:18.028] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:18.036] [INFO] [default] Attempting to login with username: Adm
+[2025-08-06 19:50:19.289] [INFO] [default] Credentials entered
+[2025-08-06 19:50:20.101] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:20.106] [INFO] [default] Verifying alert message: Invalid credentials
+[2025-08-06 19:50:20.466] [INFO] [default] Alert message verification successful
+[2025-08-06 19:50:20.473] [INFO] [default] Completed test: Login to OrangeHRM successful with invalid credentials (example #3) with status: undefined
+[2025-08-06 19:50:20.489] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #1)
+[2025-08-06 19:50:20.497] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:20.881] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:20.888] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:50:21.705] [INFO] [default] Credentials entered
+[2025-08-06 19:50:21.788] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:21.799] [INFO] [default] Verifying required field message: Required for field: username
+[2025-08-06 19:50:21.808] [INFO] [default] Required field message verification successful
+[2025-08-06 19:50:21.815] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #1) with status: undefined
+[2025-08-06 19:50:21.834] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #2)
+[2025-08-06 19:50:21.842] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:22.234] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:22.244] [INFO] [default] Attempting to login with username: Admin
+[2025-08-06 19:50:23.036] [INFO] [default] Credentials entered
+[2025-08-06 19:50:23.123] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:23.134] [INFO] [default] Verifying required field message: Required for field: password
+[2025-08-06 19:50:23.142] [INFO] [default] Required field message verification successful
+[2025-08-06 19:50:23.149] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #2) with status: undefined
+[2025-08-06 19:50:23.168] [INFO] [default] Starting test: Login to OrangeHRM successful with empty credentials (example #3)
+[2025-08-06 19:50:23.175] [INFO] [default] Navigating to OrangeHRM login page
+[2025-08-06 19:50:23.581] [INFO] [default] Successfully loaded OrangeHRM login page
+[2025-08-06 19:50:23.589] [INFO] [default] Attempting to login with username: 
+[2025-08-06 19:50:23.593] [INFO] [default] Credentials entered
+[2025-08-06 19:50:24.260] [INFO] [default] Submitted login credentials
+[2025-08-06 19:50:24.271] [INFO] [default] Verifying required field message: Required for field: both
+[2025-08-06 19:50:24.280] [INFO] [default] Required field message verification successful
+[2025-08-06 19:50:24.288] [INFO] [default] Completed test: Login to OrangeHRM successful with empty credentials (example #3) with status: undefined
+[2025-08-06 19:50:24.293] [INFO] [default] Test execution completed

@@ -1,0 +1,13 @@
+{
+    "cucumber.glue": [
+        "cypress/support/step_definitions/**/*.js"
+    ],
+    "cucumber.features": [
+        "cypress/e2e/**/*.feature"
+    ],
+    "cucumberautocomplete.steps": [
+        "cypress/support/step_definitions/**/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/e2e/**/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": false
+}
