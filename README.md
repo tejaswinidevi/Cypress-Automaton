@@ -39,7 +39,7 @@ This repository contains a Cypress automation project for the OrangeHRM demo web
 # Folder Structure
 ```cypress/
 ├── e2e/
-│   └── FeatureFiles/     # Feature files
+│   └── features/         # Feature files
 └── support/
     ├── e2e.js            # Support file
     └── pages/            # Page object classes
@@ -59,6 +59,6 @@ This repository contains a Cypress automation project for the OrangeHRM demo web
 
 # Page Object Model
 * The project follows Page Object Model for better maintainability
-* Features files under cypress/e2e/FeatureFiles calls step definitions under cypress/support/step_definitions/
+* Features files under cypress/e2e/features calls step definitions under cypress/support/step_definitions/
 * Step definitions inturn call page object classes under cypress/support/pages/ for performing actions
 * Page objects use the element selectors under cypress/support/selectors
